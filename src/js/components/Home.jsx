@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./NavBar";
 import Hero from "./Hero";
-import Card from "./Card";
+import CardRow from "./CardRow";
 import Footer from "./Footer";
 
 //include images into your bundle
@@ -19,15 +19,8 @@ const Home = () => {
 				</div>
 				<div className="col-2"></div>
 			</div>
-			<div className="row mb-3">
-				<div className="col-2"></div>
-				<div className="col-8 container d-flex justify-content-evenly">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-				</div>
-				<div className="col-2"></div >
+			<div className="mb-4">
+				<CardRow />
 			</div>
 			<Footer />
 		</>
